@@ -1,10 +1,10 @@
-import NewsList from "../../../../components/news-list";
+import NewsList from "@/components/news-list";
 import {
   getAvailableNewsMonths,
   getAvailableNewsYears,
   getNewsForYear,
   getNewsForYearAndMonth,
-} from "../../../../lib/news";
+} from "@/lib/news";
 import Link from "next/link";
 
 export default function FilteredNewsPage({ params }) {
