@@ -37,3 +37,6 @@ next-env.d.ts
 
 #database
 meals.db
+
+/backend/node_modules
+/backend/data.db
